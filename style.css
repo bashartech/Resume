@@ -94,7 +94,7 @@ padding: 10px;
 }
 .skills{
 padding: 10px;
-    background-color: bisque;
+    background-color: rgb(204, 201, 197);
    
 }
 .skills h2{
@@ -107,4 +107,51 @@ padding: 10px;
 }
 .workExperience h2{
     font-size: 35px;
+}
+@media screen and (max-width: 500px) {
+    
+    .contactDetails .name{
+        color: rgb(146, 146, 118);
+    font-size: 30px;
+    font-weight: 500;
+    }
+}
+@media screen and (max-width: 430px) {
+    
+    .contactDetails .name{
+        color: rgb(146, 146, 118);
+    font-size: 25px;
+    font-weight: 500;
+    }
+    .contactDetails .field{
+        font-size: 18px;
+        color: rgb(92, 115, 116);
+        font-weight: 500;
+    }
+    .contactDetails .contact{
+        font-size: 10px;
+        color: rgb(92, 115, 116);
+    }
+    .profilePicture img{
+        width: 120px;
+        height: 120px;
+        border-radius: 80px;
+        }
+}
+@media screen and (max-width: 385px) {
+    
+    .contactDetails .name{
+        color: rgb(146, 146, 118);
+    font-size: 22px;
+    font-weight: 500;
+    }
+    .contactDetails .field{
+        font-size: 16px;
+        color: rgb(92, 115, 116);
+        font-weight: 500;
+    }
+    .contactDetails .contact{
+        font-size: 9px;
+        color: rgb(92, 115, 116);
+    }
 }
