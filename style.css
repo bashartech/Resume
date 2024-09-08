@@ -108,6 +108,28 @@ padding: 10px;
 .workExperience h2{
     font-size: 35px;
 }
+.btn {
+    height: 50px;
+    display: flex;
+    justify-content: center;
+        align-items: center;
+    }
+    .btn button{
+        padding: 7px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 8px 2px rgb(249, 251, 252);
+        background-color: #423e3e;
+        border: transparent;
+        cursor: pointer;
+    }
+    .link {
+    text-decoration: none;
+
+}
+.btn button:hover{
+    background-color: darkgrey;
+
+}
 @media screen and (max-width: 500px) {
     
     .contactDetails .name{
